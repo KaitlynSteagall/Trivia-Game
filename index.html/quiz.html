@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <h1>Animal Trivia</h1>
+
+  <h3>Time Remaining: <span id="countdown"></span></h3>
+
+  <!-- questions go here -->
+  <form>
+    <p>1. Snails can sleep up to ____ at a time.</p>
+    <input type="radio" name="question1" value="12hours"> 12 hours
+    <input type="radio" name="question1" value="48hours"> 48 hours
+    <input type="radio" name="question1" value="1year"> 1 year 
+    <input type="radio" name="question1" value="3years"> 3 years <br><br>
+    
+    <p>2. A shrimp's heart is located in it's head. True/False?</p>
+    <input type="radio" name="question2" value="true"> True
+    <input type="radio" name="question2" value="false"> False <br><br>
+    
+    <p>3. A Rhino's horn is primarily made of ____.</p>
+    <input type="radio" name="question3" value="dentine"> Dentine
+    <input type="radio" name="question3" value="keratin"> Keratin
+    <input type="radio" name="question3" value="collagen"> Collagen 
+    <input type="radio" name="question1" value="elastin"> Elastin <br><br>
+
+    <p>4. It takes a sloth _____ to digest its food.</p>
+    <input type="radio" name="question4" value="48hours"> 48 hours
+    <input type="radio" name="question4" value="1week"> 1 week
+    <input type="radio" name="question4" value="2weeks"> 2 weeks 
+    <input type="radio" name="question1" value="3weeks"> 3 weeks <br><br>
+
+    <p>5. Bats always turn right when exiting a cave. True/False?</p>
+    <input type="radio" name="question5" value="true"> True
+    <input type="radio" name="question5" value="false"> False <br><br>
+
+    <p>6. Which animal has an eye size that's larger than their brain?</p>
+    <input type="radio" name="question6" value="slowloris"> Slow Loris
+    <input type="radio" name="question6" value="chameleon"> Chameleon
+    <input type="radio" name="question6" value="owls"> Owls 
+    <input type="radio" name="question1" value="ostrich"> Ostrich <br><br>
+
+    <p>7. Cats meow to communicate with other cats. True/False?</p>
+    <input type="radio" name="question7" value="true"> True
+    <input type="radio" name="question7" value="false"> False <br><br>
+
+    <p>8. A grizzly bear's bite has enough force to crush a bowling ball. True/False?</p>
+    <input type="radio" name="question8" value="true"> True
+    <input type="radio" name="question8" value="false"> False <br><br>
+  </form> 
+
+  <br>
+
+  <a type="button" class="btn" href="result.html"><h3>Submit</h3></a>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./assets/javascript/app.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
