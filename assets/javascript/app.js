@@ -37,7 +37,7 @@ function addAnswers() {
     //else if the incorrect radio is checked..
     else if (($('.12hrs').is(':checked')) || ($('.48hrs1').is(':checked')) || ($('.1yr').is(':checked'))) {
       //add to the numIncorrect var
-      numIncorrect++;
+      numIncorrect++; //this will add everytime it's clicked how to avoid this?
       //display score to #numIncorrect
       $("#numIncorrect").html(numIncorrect);
     }
