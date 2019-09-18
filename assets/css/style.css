@@ -1,5 +1,13 @@
+html,
 body {
-  background-image: url("../images/background.jpg");
+  min-height: 100%;
+}
+
+body {
+  background-image: url("../images/tigerstripes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 p {
